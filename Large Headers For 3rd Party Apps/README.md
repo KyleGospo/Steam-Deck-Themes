@@ -1,0 +1,1 @@
+Increases the height of the 3rd Party App header to match native Steam titles.
