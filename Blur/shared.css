@@ -11,32 +11,33 @@
 }
 
 /* ProtonDB Badges */
+/* !important needed due to load order of protondb-decky changing randomly */
 .protondb-decky-indicator {
 	backdrop-filter: blur(8px);
 	border-radius: 2px;
 }
 
 .protondb-decky-indicator-platinum {
-	background: rgba(180, 199, 220, 0.35);
+	background: rgba(180, 199, 220, 0.35)!important;
 }
 
 .protondb-decky-indicator-gold {
-	background: rgba(207, 181, 59, 0.35);
+	background: rgba(207, 181, 59, 0.35)!important;
 }
 
 .protondb-decky-indicator-silver {
-	background: rgba(166, 166, 166, 0.35);
+	background: rgba(166, 166, 166, 0.35)!important;
 }
 
 .protondb-decky-indicator-bronze {
-	background: rgba(205, 127, 50, 0.35);
+	background: rgba(205, 127, 50, 0.35)!important;
 }
 
 .protondb-decky-indicator-borked {
-	background: rgba(255, 0, 0, 0.35);
+	background: rgba(255, 0, 0, 0.35)!important;
 }
 
-/* Volume Panel*/
+/* Volume Panel */
 .audio_VolumePopin_2iUUM {
 	backdrop-filter: blur(8px);
 	background-color: #23262ebf;

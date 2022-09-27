@@ -1,10 +1,11 @@
 {
-    "name": "Blur",
-    "author": "KyleGospo",
-    "manifest_version": 3,
-    "target": "Other",
-    "description": "Adds a frosted glass effect to various UI elements. Includes ProtonDB Batches support.",
-    "inject": {
-        "shared.css": ["SP"]
-    }
+	"name": "Blur",
+	"version": "v1.1",
+	"author": "KyleGospo",
+	"manifest_version": 3,
+	"target": "System-Wide",
+	"description": "Adds a frosted glass effect to various UI elements. Includes ProtonDB Badges support.",
+	"inject": {
+		"shared.css": ["SP"]
+	}
 }
