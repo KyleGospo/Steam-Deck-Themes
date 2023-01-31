@@ -1,6 +1,7 @@
 {
     "name": "Large Headers for 3rd Party Apps",
-    "author": "KyleGospo",
+    "version": "v1.1",
+    "author": "1/4 Life",
     "manifest_version": 3,
     "target": "Other",
     "description": "Increases the height of the 3rd Party App header to match native Steam titles.",

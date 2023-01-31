@@ -1,7 +1,7 @@
 {
 	"name": "Blur",
-	"version": "v2.0",
-	"author": "KyleGospo",
+	"version": "v2.1",
+	"author": "1/4 Life",
 	"manifest_version": 3,
 	"target": "System-Wide",
 	"description": "Adds a frosted glass effect to various UI elements. Includes ProtonDB Badges support.",
