@@ -1,11 +1,44 @@
 {
 	"name": "Blur",
-	"version": "v1.1",
+	"version": "v2.0",
 	"author": "KyleGospo",
 	"manifest_version": 3,
 	"target": "System-Wide",
 	"description": "Adds a frosted glass effect to various UI elements. Includes ProtonDB Badges support.",
-	"inject": {
-		"shared.css": ["SP"]
+	"inject": {},
+	"patches": {
+		"Topbar Blur": {
+			"default": "Enabled",
+			"type": "dropdown",
+			"values": {
+				"Disabled": {},
+				"Enabled": {
+					"topbar.css": ["SP"]
+				},
+				"Focused Only": {
+					"topbar-focus.css": ["SP"]
+				}
+			}
+		},
+		"Volume Panel Blur": {
+			"default": "Enabled",
+			"type": "dropdown",
+			"values": {
+				"Disabled": {},
+				"Enabled": {
+					"volume.css": ["SP"]
+				}
+			}
+		},
+		"Game Badge & ProtonDB Blur": {
+			"default": "Enabled",
+			"type": "dropdown",
+			"values": {
+				"Disabled": {},
+				"Enabled": {
+					"misc.css": ["SP"]
+				}
+			}
+		}
 	}
 }

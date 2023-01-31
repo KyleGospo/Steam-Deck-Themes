@@ -1,0 +1,63 @@
+/* ProtonDB Badges */
+/* !important needed due to load order of protondb-decky changing randomly */
+.protondb-decky-indicator {
+	backdrop-filter: blur(8px);
+	border-radius: 3px!important;
+}
+
+.protondb-decky-indicator-platinum:focus {
+	background: rgba(180, 199, 220, 1)!important;
+}
+
+.protondb-decky-indicator-gold:focus {
+	background: rgba(207, 181, 59, 1)!important;
+}
+
+.protondb-decky-indicator-silver:focus {
+	background: rgba(166, 166, 166, 1)!important;
+}
+
+.protondb-decky-indicator-bronze:focus {
+	background: rgba(205, 127, 50, 1)!important;
+}
+
+.protondb-decky-indicator-borked:focus {
+	background: rgba(255, 0, 0, 1)!important;
+}
+
+.protondb-decky-indicator-platinum {
+	background: rgba(180, 199, 220, 0.35)!important;
+}
+
+.protondb-decky-indicator-gold {
+	background: rgba(207, 181, 59, 0.35)!important;
+}
+
+.protondb-decky-indicator-silver {
+	background: rgba(166, 166, 166, 0.35)!important;
+}
+
+.protondb-decky-indicator-bronze {
+	background: rgba(205, 127, 50, 0.35)!important;
+}
+
+.protondb-decky-indicator-borked {
+	background: rgba(255, 0, 0, 0.35)!important;
+}
+
+/* Verified Badges */
+.shared_svg_library_SteamDeckCompatInfo_2LcFI {
+	backdrop-filter: blur(8px);
+	background-color: #0e141b87;
+}
+
+.shared_svg_library_SteamDeckCompatIcon_2hEWY,
+.shared_svg_library_SteamDeckCompatLogo_Tplfb {
+	opacity: 0.65;
+}
+
+/* In Library Badge */
+.gamecapsule_InLibrary_fyHna {
+	backdrop-filter: blur(8px);
+	background-color: #4f95bd80;
+}
