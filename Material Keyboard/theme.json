@@ -1,0 +1,11 @@
+{
+    "name": "Material Keyboard",
+    "version": "v1.0",
+    "author": "1/4 Life",
+    "manifest_version": 3,
+    "target": "Keyboard",
+    "description": "Brings Android's Material Design to the Steam Deck keyboard. Only applies to the default keyboard theme.",
+    "inject": {
+        "shared.css": ["SP"]
+    }
+}
