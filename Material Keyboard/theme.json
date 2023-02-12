@@ -7,5 +7,52 @@
     "description": "Brings Android's Material Design to the Steam Deck keyboard. Only applies to the default keyboard theme.",
     "inject": {
         "shared.css": ["SP"]
+    },
+    "patches": {
+        "Color": {
+            "default": "Steam OS",
+            "type": "dropdown",
+            "values": {
+                "Steam OS": {
+                    "theme_steamos.css": ["SP"]
+                },
+                "Dark": {
+                    "theme_dark.css": ["SP"]
+                },
+                "Black": {
+                    "theme_black.css": ["SP"]
+                },
+                "Grey": {
+                    "theme_grey.css": ["SP"]
+                },
+                "Red": {
+                    "theme_red.css": ["SP"]
+                },
+                "Light Green": {
+                    "theme_light_green.css": ["SP"]
+                },
+                "Green": {
+                    "theme_green.css": ["SP"]
+                },
+                "Blue": {
+                    "theme_blue.css": ["SP"]
+                },
+                "Purple": {
+                    "theme_purple.css": ["SP"]
+                },
+                "Wine": {
+                    "theme_wine.css": ["SP"]
+                },
+                "Pink": {
+                    "theme_pink.css": ["SP"]
+                },
+                "Cream": {
+                    "theme_cream.css": ["SP"]
+                },
+                "Brown": {
+                    "theme_brown.css": ["SP"]
+                }
+            }
+        }
     }
 }
