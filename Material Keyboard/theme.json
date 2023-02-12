@@ -43,12 +43,6 @@
                 "Wine": {
                     "theme_wine.css": ["SP"]
                 },
-                "Pink": {
-                    "theme_pink.css": ["SP"]
-                },
-                "Cream": {
-                    "theme_cream.css": ["SP"]
-                },
                 "Brown": {
                     "theme_brown.css": ["SP"]
                 }
